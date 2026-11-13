@@ -1,0 +1,19 @@
+{
+  "name": "queueflow",
+  "version": "1.0.0",
+  "description": "Queue management app: Express + SQLite + vanilla JS",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node test.js"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "better-sqlite3": "^13.1.1",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2"
+  }
+}
